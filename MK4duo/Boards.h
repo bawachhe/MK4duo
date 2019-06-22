@@ -113,7 +113,7 @@
  * Custom Boards
  */
 #define BOARD_99                99    // Custom Board
-
+#define BOARD_991               991    // JNL
 
 /**
  * SAM3X8E ARM Cortex M3
