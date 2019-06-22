@@ -158,7 +158,7 @@
  */
 #define NO_TIMEOUTS 1000
 // Uncomment to include more info in ok command
-//#define ADVANCED_OK
+#define ADVANCED_OK
 
 /**
  * Enable an emergency-command parser to intercept certain commands as they
@@ -170,7 +170,7 @@
 /**
  * Spend 28 bytes of SRAM to optimize the GCode parser
  */
-//#define FASTER_GCODE_PARSER
+#define FASTER_GCODE_PARSER
 
 /**
  * Spend more bytes of SRAM to optimize the GCode execute
@@ -219,7 +219,7 @@
  * MECH_MUVE3D          - Muve 3D with serial projector                *
  *                                                                     *
  ***********************************************************************/
-#define MECHANISM MECH_CARTESIAN
+#define MECHANISM MECH_DELTA
 /***********************************************************************/
 
 
@@ -234,8 +234,7 @@
  * 2 POWER WITH PS-ON TO VCC (X-BOX 360)                                             *
  *                                                                                   *
  *************************************************************************************/
-#define POWER_SUPPLY 0
-//#define POWER_NAME "Generic"
+#define POWER_SUPPLY 1
 
 // Define this to have the electronics keep the power supply off on startup.
 // If you don't know what this is leave it.
