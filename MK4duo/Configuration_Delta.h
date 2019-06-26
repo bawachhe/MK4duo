@@ -167,10 +167,10 @@
  * Put true for enable or put false for disable the endstop pullup resistors             *
  *                                                                                       *
  *****************************************************************************************/
-#define ENDSTOPPULLUP_XMAX    false
-#define ENDSTOPPULLUP_YMAX    false
-#define ENDSTOPPULLUP_ZMAX    false
-#define ENDSTOPPULLUP_ZPROBE  false
+#define ENDSTOPPULLUP_XMAX    true
+#define ENDSTOPPULLUP_YMAX    true
+#define ENDSTOPPULLUP_ZMAX    true
+#define ENDSTOPPULLUP_ZPROBE  true
 /*****************************************************************************************/
 
 
@@ -228,8 +228,8 @@
 // Z Servo Endstop
 // Remember active servos in Configuration_Feature.h
 // Define nr servo for endstop -1 not define. Servo index start 0
-#define Z_PROBE_SERVO_NR -1
-#define Z_SERVO_ANGLES {90,0} // Z Servo Deploy and Stow angles
+//#define Z_PROBE_SERVO_NR -1
+//#define Z_SERVO_ANGLES {90,0} // Z Servo Deploy and Stow angles
 
 // The "Manual Probe" provides a means to do "Auto" Bed Leveling and calibration without a probe.
 // Use G29 or G30 A repeatedly, adjusting the Z height at each point with movement commands
@@ -240,7 +240,7 @@
 // For example an inductive probe, or a setup that uses the nozzle to probe.
 // An inductive probe must be deactivated to go below
 // its trigger-point if hardware endstops are active.
-//#define Z_PROBE_FIX_MOUNTED
+#define Z_PROBE_FIX_MOUNTED
 
 // The BLTouch probe uses a Hall effect sensor and emulates a servo.
 // The default connector is SERVO 0.
