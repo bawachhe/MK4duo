@@ -14,27 +14,27 @@
 
 
 //###X_AXIS
-#define ORIG_X_STEP_PIN            NoPin
-#define ORIG_X_DIR_PIN             NoPin
-#define ORIG_X_ENABLE_PIN          NoPin
+#define ORIG_X_STEP_PIN            24
+#define ORIG_X_DIR_PIN             25
+#define ORIG_X_ENABLE_PIN          22
 #define ORIG_X_CS_PIN              NoPin
 
 //###Y_AXIS
-#define ORIG_Y_STEP_PIN            NoPin
-#define ORIG_Y_DIR_PIN             NoPin
-#define ORIG_Y_ENABLE_PIN          NoPin
+#define ORIG_Y_STEP_PIN            28
+#define ORIG_Y_DIR_PIN             29
+#define ORIG_Y_ENABLE_PIN          26
 #define ORIG_Y_CS_PIN              NoPin
 
 //###Z_AXIS
-#define ORIG_Z_STEP_PIN            NoPin
-#define ORIG_Z_DIR_PIN             NoPin
-#define ORIG_Z_ENABLE_PIN          NoPin
+#define ORIG_Z_STEP_PIN            32
+#define ORIG_Z_DIR_PIN             33
+#define ORIG_Z_ENABLE_PIN          30
 #define ORIG_Z_CS_PIN              NoPin
 
 //###EXTRUDER_0
-#define ORIG_E0_STEP_PIN           NoPin
-#define ORIG_E0_DIR_PIN            NoPin
-#define ORIG_E0_ENABLE_PIN         NoPin
+#define ORIG_E0_STEP_PIN           36
+#define ORIG_E0_DIR_PIN            37
+#define ORIG_E0_ENABLE_PIN         34
 #define ORIG_E0_CS_PIN             NoPin
 #define ORIG_SOL0_PIN              NoPin
 
@@ -100,12 +100,12 @@
 #define ORIG_Z3_MAX_PIN            NoPin
 #define ORIG_Z4_MIN_PIN            NoPin
 #define ORIG_Z4_MAX_PIN            NoPin
-#define ORIG_Z_PROBE_PIN           NoPin
+#define ORIG_Z_PROBE_PIN           18
 
 //###SINGLE_ENDSTOP
-#define X_STOP_PIN                 NoPin
-#define Y_STOP_PIN                 NoPin
-#define Z_STOP_PIN                 NoPin
+#define X_STOP_PIN                 21
+#define Y_STOP_PIN                 20
+#define Z_STOP_PIN                 19
 
 //###HEATER
 #define ORIG_HEATER_HE0_PIN        NoPin
@@ -155,7 +155,12 @@
 #define SERVO2_PIN                 NoPin
 #define SERVO3_PIN                 NoPin
 
-//###SAM_SDSS
+//###MISC
+#define ORIG_PS_ON_PIN             17
+#define ORIG_BEEPER_PIN            NoPin
+#define LED_PIN                    NoPin
+#define SDPOWER_PIN                NoPin
+#define SD_DETECT_PIN              NoPin
 #define SDSS                       NoPin
 
 //###MAX6675
@@ -176,6 +181,16 @@
 #define ORIG_BEEPER_PIN            NoPin
 #define LED_PIN                    NoPin
 
+
+//### MICROSTEPPING PINS
+#define X_MS1_PIN           23
+#define X_MS2_PIN           NoPin
+#define Y_MS1_PIN           27
+#define Y_MS2_PIN           NoPin
+#define Z_MS1_PIN           31
+#define Z_MS2_PIN           NoPin
+#define E0_MS1_PIN          35
+#define E0_MS2_PIN          NoPin
 
 
 
